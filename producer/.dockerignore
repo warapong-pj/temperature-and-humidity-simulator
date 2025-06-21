@@ -1,0 +1,19 @@
+# Git and Docker config
+.git
+.gitignore
+.dockerignore
+
+# Dependencies - These will be installed inside the container
+node_modules
+
+# Build output - This will be generated inside the container
+dest
+
+# Test configuration
+jest.config.js
+
+# Documentation
+README.md
+
+# Logs
+*.log
