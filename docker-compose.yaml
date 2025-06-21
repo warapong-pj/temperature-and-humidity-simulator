@@ -7,5 +7,17 @@ services:
     volumes:
       - rabbitmq_data:/var/lib/rabbitmq  # Persist data
 
+  pushgateway:
+    image: prom/pushgateway:v1.11.1
+    ports:
+      - "9091:9091"
+
+  prometheus:
+    image: prom/prometheus:v3.4.1
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
 volumes:
   rabbitmq_data:
