@@ -1,0 +1,22 @@
+# Dependencies
+**/node_modules
+
+# Build output
+**/dist
+
+# Logs
+**/logs
+*.log
+**/npm-debug.log*
+
+# Runtime data
+**/pids
+*.pid
+*.seed
+
+# Environment variables
+**/.env
+**/.env.local
+
+# macOS
+**/.DS_Store
