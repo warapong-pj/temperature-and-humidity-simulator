@@ -8,3 +8,6 @@ producer/*.egg-info
 
 # Virtual environments
 producer/.venv
+
+#
+consumer/node_modules
