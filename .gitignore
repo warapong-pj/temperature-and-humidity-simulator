@@ -1,0 +1,10 @@
+# Python-generated files
+producer/__pycache__/
+producer/*.py[oc]
+producer/build/
+producer/dist/
+producer/wheels/
+producer/*.egg-info
+
+# Virtual environments
+producer/.venv
